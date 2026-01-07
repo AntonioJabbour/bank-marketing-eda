@@ -66,3 +66,14 @@ Engineered features:
    - Compare the models and recommend the one that best supports the business goal:
      - **Identify as many potential subscribers as possible** while keeping wasted calls reasonable.
 
+---
+
+## Project structure
+
+```text
+.
+├── bank_marketing_eda.ipynb         # EDA notebook: cleaning, analysis, visualizations
+├── bank_marketing_modeling.ipynb    # Modeling notebook: Logistic Regression & Random Forest
+├── data/
+│   └── bank.csv                     # (optional) Dataset or instructions to download
+└── README.md                        # Project description (this file)
